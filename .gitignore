@@ -1,0 +1,26 @@
+# Entorno virtual de Python
+venv/
+.env
+
+# Archivos de IDE
+.vscode/
+.idea/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Migraciones de bases de datos (si usas Alembic)
+migrations/
+
+# Docker
+docker-compose.override.yml
+
+# Archivos generados por el sistema
+.DS_Store
+Thumbs.db
+
+# Dependencias de Node.js (si tienes frontend)
+node_modules/
